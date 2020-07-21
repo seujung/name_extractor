@@ -3,9 +3,10 @@ import os
 import re
 import dill
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 class NameExtractor():
     def __init__(self):
-        with open('./name_pattern.pkl', 'rb') as f:
+        with open(os.path.join(BASE_DIR, 'name_pattern.pkl'), 'rb') as f:
             self.NAME_PATTERN = dill.load(f)
         
     def process(self, text):
