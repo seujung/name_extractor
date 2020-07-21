@@ -22,7 +22,7 @@ class NameExtractor():
                         "end": e,
                         "value": match.group(),
                         "confidence": 1.0,
-                        "entity": 'UserName',
+                        "entity": 'USER_NAME',
                     }
                     extracted.append(entity)
                 except TypeError:
