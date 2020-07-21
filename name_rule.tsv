@@ -1,0 +1,135 @@
+keyword	type	contain_space
+사람은	backward	TRUE
+번호는	backward	TRUE
+입니다	forward	TRUE
+이랑	forward	FALSE
+한테	forward	FALSE
+한테로	forward	FALSE
+으로	forward	FALSE
+에게	forward	FALSE
+에게도	forward	FALSE
+에도	forward	FALSE
+에게로	forward	FALSE
+에게로다	forward	FALSE
+에게로다가	forward	FALSE
+에다	forward	FALSE
+에다가	forward	FALSE
+번호가	forward	FALSE
+번호와	forward	FALSE
+번호랑	forward	TRUE
+번호한테로	forward	TRUE
+번호로	forward	TRUE
+번호에	forward	TRUE
+번호에도	forward	TRUE
+번호에게	forward	TRUE
+번호에게로	forward	TRUE
+번호에게로다가	forward	TRUE
+번호에게로다가	forward	TRUE
+번호에다	forward	TRUE
+번호에다가	forward	TRUE
+폰과	forward	TRUE
+폰이랑	forward	TRUE
+폰한테	forward	TRUE
+폰한테로	forward	TRUE
+폰으로	forward	TRUE
+폰에	forward	TRUE
+폰에도	forward	TRUE
+폰에게	forward	TRUE
+폰에게로	forward	TRUE
+폰에게로다	forward	TRUE
+폰에게로다가	forward	TRUE
+폰에다	forward	TRUE
+폰에다가	forward	TRUE
+쪽이	forward	TRUE
+쪽과	forward	TRUE
+쪽이랑	forward	TRUE
+쪽한테	forward	TRUE
+쪽한테로	forward	TRUE
+쪽으로	forward	TRUE
+쪽에도	forward	TRUE
+쪽에	forward	TRUE
+쪽에게	forward	TRUE
+쪽에게로다가	forward	TRUE
+쪽에다	forward	TRUE
+쪽에다가	forward	TRUE
+기기와	forward	TRUE
+기기랑	forward	TRUE
+기기한테	forward	TRUE
+기기한테로	forward	TRUE
+기기로	forward	TRUE
+기기에도	forward	TRUE
+기기에	forward	TRUE
+기기에게	forward	TRUE
+기기에게로	forward	TRUE
+기기에다	forward	TRUE
+기기에다가	forward	TRUE
+의 기기와	forward	FALSE
+의 기기랑	forward	FALSE
+의 기기한테	forward	FALSE
+의 기기한테로	forward	FALSE
+의 기기로	forward	FALSE
+의 기기에도	forward	FALSE
+의 기기에	forward	FALSE
+의 기기에게	forward	FALSE
+의 기기에게로	forward	FALSE
+의 기기에다	forward	FALSE
+의 기기에다가	forward	FALSE
+연락처가	forward	TRUE
+연락처와	forward	TRUE
+연락처랑	forward	TRUE
+연락처한테	forward	TRUE
+연락처한테로	forward	TRUE
+연락처로	forward	TRUE
+연락처에도	forward	TRUE
+연락처에	forward	TRUE
+연락처에게로	forward	TRUE
+연락처에게로다	forward	TRUE
+연락처에다	forward	TRUE
+연락처에다가	forward	TRUE
+의 연락처가	forward	FALSE
+의 연락차와	forward	FALSE
+의 연락처랑	forward	FALSE
+의 연락처한테	forward	FALSE
+의 연락처한테로	forward	FALSE
+의 안력처로	forward	FALSE
+의 연락처에도	forward	FALSE
+의 연락처에	forward	FALSE
+의 연락처에게	forward	FALSE
+의 연락처에게로	forward	FALSE
+의 연락처에게로다	forward	FALSE
+의 연락처에다	forward	FALSE
+의 연락처에다가	forward	FALSE
+이 번호가	forward	FALSE
+이 번호와	forward	FALSE
+이 번호랑	forward	FALSE
+이 번호한테	forward	FALSE
+이 번호한테로	forward	FALSE
+이 번호로	forward	FALSE
+이 번호에	forward	FALSE
+이 번호에게	forward	FALSE
+이 번호에게로	forward	FALSE
+이 번호에게로다	forward	FALSE
+이 벤호에게로다가	forward	FALSE
+이 번호에다	forward	FALSE
+이 번호에다가	forward	FALSE
+의 번호가	forward	FALSE
+의 번호와	forward	FALSE
+의 번호랑	forward	FALSE
+의 번호한테	forward	FALSE
+의 번호한테로	forward	FALSE
+의 번호로	forward	FALSE
+의 번호에	forward	FALSE
+의 번호에게	forward	FALSE
+의 번호에게로	forward	FALSE
+의 번호에게로다	forward	FALSE
+의 벤호에게로다가	forward	FALSE
+의 번호에다	forward	FALSE
+의 번호에다가	forward	FALSE
+앞으로	forward	TRUE
+앞으로도	forward	TRUE
+앞에	forward	TRUE
+앞에도	forward	TRUE
+앞에다	forward	TRUE
+앞에다가	forward	TRUE
+앞으로다가	forward	TRUE
+앞에다가	forward	TRUE
