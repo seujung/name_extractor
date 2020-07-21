@@ -133,3 +133,56 @@ keyword	type	contain_space
 앞에다가	forward	TRUE
 앞으로다가	forward	TRUE
 앞에다가	forward	TRUE
+사용자와	forward	TRUE
+사용자랑	forward	TRUE
+사용자한테	forward	TRUE
+사용자한테로	forward	TRUE
+사용자에	forward	TRUE
+사용자에게도	forward	TRUE
+사용자에게	forward	TRUE
+사용자에게로	forward	TRUE
+사용자에게로다	forward	TRUE
+사용자에게로다가	forward	TRUE
+이용자가	forward	TRUE
+이용자와	forward	TRUE
+이용자랑	forward	TRUE
+이용자한테	forward	TRUE
+이용자한테로	forward	TRUE
+이용자에도	forward	TRUE
+이용자에	forward	TRUE
+이용자에게도	forward	TRUE
+이용자에게	forward	TRUE
+이용자에게로	forward	TRUE
+이용자에게로다	forward	TRUE
+이용자에게로다가	forward	TRUE
+회선이	forward	TRUE
+회선과	forward	TRUE
+회선이랑	forward	TRUE
+회선한테	forward	TRUE
+회선한테로	forward	TRUE
+회선으로	forward	TRUE
+회선에	forward	TRUE
+회선에도	forward	TRUE
+회선에게	forward	TRUE
+회선에게로	forward	TRUE
+회선에게로다	forward	TRUE
+회선에게로다가	forward	TRUE
+회선에게도	forward	TRUE
+회선에다	forward	TRUE
+회선에다가	forward	TRUE
+의 회선이	forward	FALSE
+의 회선이	forward	FALSE
+의 회선과	forward	FALSE
+의 회선이랑	forward	FALSE
+의 회선한테	forward	FALSE
+의 회선한테로	forward	FALSE
+의 회선으로	forward	FALSE
+의 회선에	forward	FALSE
+의 회선에도	forward	FALSE
+의 회선에게	forward	FALSE
+의 회선에게로	forward	FALSE
+의 회선에게로다	forward	FALSE
+의 회선에게로다가	forward	FALSE
+의 회선에게도	forward	FALSE
+의 회선에다	forward	FALSE
+의 회선에다가	forward	FALSE
