@@ -4,6 +4,9 @@ import re
 import dill
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+EXCEPTION_LIST = ['번호', '폰', '기기', '사람', '연락처', '사용자', '이용자', '회선']
+
 class NameExtractor():
     def __init__(self):
         with open(os.path.join(BASE_DIR, 'name_pattern.pkl'), 'rb') as f:
@@ -29,7 +32,7 @@ class NameExtractor():
                     else:
                         dup_count = 0
                         for i, v in enumerate(extracted):
-                            if entity['start'] == v['start']:
+                            if entity['start'] == v['start'] and entity['entity'] not in EXCEPTION_LIST:
                                 dup_count += 1
                                 ## 중복 제거
                                 if entity['end'] == v['end']:
