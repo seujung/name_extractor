@@ -27,4 +27,6 @@ class NameExtractor():
                     extracted.append(entity)
                 except TypeError:
                     print(f"pattern: {pattern_} text: {text}")
-        return extracted
+        
+        extracted_filter = {frozenset(item.items()) : item for item in extracted}.values() 
+        return extracted_filter
