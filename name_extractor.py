@@ -24,21 +24,27 @@ class NameExtractor():
                         "confidence": 1.0,
                         "entity": 'CONTACT_NAME',
                     }
-                    # extracted.append(entity)
-                    for i, v in enumerate(extracted):
-                        if entity['start'] == v['start']:
-                            ## 중복 제거
-                            if entity['end'] == v['end']:
-                                pass
-                            else:
-                                ##minimum 기준
-                                if entity['end'] < v['end']:
-                                    del extracted[i]
-                                    extracted.append(entity)
-                                else:
+                    if len(extracted) == 0:
+                        extracted.append(entity)
+                    else:
+                        dup_count = 0
+                        for i, v in enumerate(extracted):
+                            if entity['start'] == v['start']:
+                                dup_count += 1
+                                ## 중복 제거
+                                if entity['end'] == v['end']:
                                     pass
+                                else:
+                                    ##minimum 기준
+                                    if entity['end'] < v['end']:
+                                        del extracted[i]
+                                        extracted.append(entity)
+                                    else:
+                                        pass
+                        if dup_count ==0:
+                            extracted.append(entity)
                 except TypeError:
                     print(f"pattern: {pattern_} text: {text}")
         
-        # extracted_filter = list({frozenset(item.items()) : item for item in extracted}.values())
+        extracted = sorted(extracted, key=lambda k: k['start']) 
         return extracted
