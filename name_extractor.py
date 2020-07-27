@@ -25,7 +25,7 @@ class NameExtractor():
                         "entity": 'CONTACT_NAME',
                     }
                     # extracted.append(entity)
-                    for i, v in enumerat(extracted):
+                    for i, v in enumerate(extracted):
                         if entity['start'] == v['start']:
                             ## 중복 제거
                             if entity['end'] == v['end']:
