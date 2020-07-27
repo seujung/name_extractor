@@ -27,25 +27,26 @@ class NameExtractor():
                         "confidence": 1.0,
                         "entity": 'CONTACT_NAME',
                     }
-                    if len(extracted) == 0:
-                        extracted.append(entity)
-                    else:
-                        dup_count = 0
-                        for i, v in enumerate(extracted):
-                            if entity['start'] == v['start'] and entity['entity'] not in EXCEPTION_LIST:
-                                dup_count += 1
-                                ## 중복 제거
-                                if entity['end'] == v['end']:
-                                    pass
-                                else:
-                                    ##minimum 기준
-                                    if entity['end'] < v['end']:
-                                        del extracted[i]
-                                        extracted.append(entity)
-                                    else:
-                                        pass
-                        if dup_count ==0:
+                    if entity['value'] not in EXCEPTION_LIST:
+                        if len(extracted) == 0:
                             extracted.append(entity)
+                        else:
+                            dup_count = 0
+                            for i, v in enumerate(extracted):
+                                if entity['start'] == v['start']:
+                                    dup_count += 1
+                                    ## 중복 제거
+                                    if entity['end'] == v['end']:
+                                        pass
+                                    else:
+                                        ##minimum 기준
+                                        if entity['end'] < v['end']:
+                                            del extracted[i]
+                                            extracted.append(entity)
+                                        else:
+                                            pass
+                            if dup_count ==0:
+                                extracted.append(entity)
                 except TypeError:
                     print(f"pattern: {pattern_} text: {text}")
         
